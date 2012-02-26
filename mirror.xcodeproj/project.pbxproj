@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5271E55614F9CAFB0079F815 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5271E55514F9CAFB0079F815 /* Cocoa.framework */; };
+		5271E56014F9CAFB0079F815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5271E55E14F9CAFB0079F815 /* InfoPlist.strings */; };
+		5271E56214F9CAFB0079F815 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5271E56114F9CAFB0079F815 /* main.m */; };
+		5271E56614F9CAFB0079F815 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5271E56414F9CAFB0079F815 /* Credits.rtf */; };
+		5271E56914F9CAFB0079F815 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5271E56814F9CAFB0079F815 /* AppDelegate.m */; };
+		5271E56C14F9CAFB0079F815 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5271E56A14F9CAFB0079F815 /* MainMenu.xib */; };
+		5271E56F14F9CAFC0079F815 /* mirror.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5271E56D14F9CAFB0079F815 /* mirror.xcdatamodeld */; };
+		5271E57714F9CAFC0079F815 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5271E57614F9CAFC0079F815 /* SenTestingKit.framework */; };
+		5271E57814F9CAFC0079F815 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5271E55514F9CAFB0079F815 /* Cocoa.framework */; };
+		5271E58014F9CAFC0079F815 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5271E57E14F9CAFC0079F815 /* InfoPlist.strings */; };
+		5271E58314F9CAFC0079F815 /* mirrorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5271E58214F9CAFC0079F815 /* mirrorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5271E57914F9CAFC0079F815 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5271E54814F9CAFB0079F815 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5271E55014F9CAFB0079F815;
+			remoteInfo = mirror;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5271E55114F9CAFB0079F815 /* mirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5271E55514F9CAFB0079F815 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5271E55814F9CAFB0079F815 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5271E55914F9CAFB0079F815 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5271E55A14F9CAFB0079F815 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5271E55D14F9CAFB0079F815 /* mirror-Info.plist */ = {isa = PBXFileReference; path = "mirror-Info.plist"; sourceTree = "<group>"; };
+		5271E55F14F9CAFB0079F815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5271E56114F9CAFB0079F815 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5271E56314F9CAFB0079F815 /* mirror-Prefix.pch */ = {isa = PBXFileReference; path = "mirror-Prefix.pch"; sourceTree = "<group>"; };
+		5271E56514F9CAFB0079F815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5271E56714F9CAFB0079F815 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5271E56814F9CAFB0079F815 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5271E56B14F9CAFB0079F815 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5271E56E14F9CAFC0079F815 /* mirror.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = mirror.xcdatamodel; sourceTree = "<group>"; };
+		5271E57514F9CAFC0079F815 /* mirrorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mirrorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5271E57614F9CAFC0079F815 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5271E57D14F9CAFC0079F815 /* mirrorTests-Info.plist */ = {isa = PBXFileReference; path = "mirrorTests-Info.plist"; sourceTree = "<group>"; };
+		5271E57F14F9CAFC0079F815 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5271E58114F9CAFC0079F815 /* mirrorTests.h */ = {isa = PBXFileReference; path = mirrorTests.h; sourceTree = "<group>"; };
+		5271E58214F9CAFC0079F815 /* mirrorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mirrorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5271E54E14F9CAFB0079F815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5271E55614F9CAFB0079F815 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5271E57114F9CAFC0079F815 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5271E57714F9CAFC0079F815 /* SenTestingKit.framework in Frameworks */,
+				5271E57814F9CAFC0079F815 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5271E54614F9CAFB0079F815 = {
+			isa = PBXGroup;
+			children = (
+				5271E55B14F9CAFB0079F815 /* mirror */,
+				5271E57B14F9CAFC0079F815 /* mirrorTests */,
+				5271E55414F9CAFB0079F815 /* Frameworks */,
+				5271E55214F9CAFB0079F815 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5271E55214F9CAFB0079F815 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5271E55114F9CAFB0079F815 /* mirror.app */,
+				5271E57514F9CAFC0079F815 /* mirrorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5271E55414F9CAFB0079F815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5271E55514F9CAFB0079F815 /* Cocoa.framework */,
+				5271E57614F9CAFC0079F815 /* SenTestingKit.framework */,
+				5271E55714F9CAFB0079F815 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5271E55714F9CAFB0079F815 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5271E55814F9CAFB0079F815 /* AppKit.framework */,
+				5271E55914F9CAFB0079F815 /* CoreData.framework */,
+				5271E55A14F9CAFB0079F815 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5271E55B14F9CAFB0079F815 /* mirror */ = {
+			isa = PBXGroup;
+			children = (
+				5271E56714F9CAFB0079F815 /* AppDelegate.h */,
+				5271E56814F9CAFB0079F815 /* AppDelegate.m */,
+				5271E56A14F9CAFB0079F815 /* MainMenu.xib */,
+				5271E56D14F9CAFB0079F815 /* mirror.xcdatamodeld */,
+				5271E55C14F9CAFB0079F815 /* Supporting Files */,
+			);
+			path = mirror;
+			sourceTree = "<group>";
+		};
+		5271E55C14F9CAFB0079F815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5271E55D14F9CAFB0079F815 /* mirror-Info.plist */,
+				5271E55E14F9CAFB0079F815 /* InfoPlist.strings */,
+				5271E56114F9CAFB0079F815 /* main.m */,
+				5271E56314F9CAFB0079F815 /* mirror-Prefix.pch */,
+				5271E56414F9CAFB0079F815 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5271E57B14F9CAFC0079F815 /* mirrorTests */ = {
+			isa = PBXGroup;
+			children = (
+				5271E58114F9CAFC0079F815 /* mirrorTests.h */,
+				5271E58214F9CAFC0079F815 /* mirrorTests.m */,
+				5271E57C14F9CAFC0079F815 /* Supporting Files */,
+			);
+			path = mirrorTests;
+			sourceTree = "<group>";
+		};
+		5271E57C14F9CAFC0079F815 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5271E57D14F9CAFC0079F815 /* mirrorTests-Info.plist */,
+				5271E57E14F9CAFC0079F815 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5271E55014F9CAFB0079F815 /* mirror */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5271E58614F9CAFC0079F815 /* Build configuration list for PBXNativeTarget "mirror" */;
+			buildPhases = (
+				5271E54D14F9CAFB0079F815 /* Sources */,
+				5271E54E14F9CAFB0079F815 /* Frameworks */,
+				5271E54F14F9CAFB0079F815 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mirror;
+			productName = mirror;
+			productReference = 5271E55114F9CAFB0079F815 /* mirror.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5271E57414F9CAFC0079F815 /* mirrorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5271E58914F9CAFC0079F815 /* Build configuration list for PBXNativeTarget "mirrorTests" */;
+			buildPhases = (
+				5271E57014F9CAFC0079F815 /* Sources */,
+				5271E57114F9CAFC0079F815 /* Frameworks */,
+				5271E57214F9CAFC0079F815 /* Resources */,
+				5271E57314F9CAFC0079F815 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5271E57A14F9CAFC0079F815 /* PBXTargetDependency */,
+			);
+			name = mirrorTests;
+			productName = mirrorTests;
+			productReference = 5271E57514F9CAFC0079F815 /* mirrorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5271E54814F9CAFB0079F815 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Auburn University";
+			};
+			buildConfigurationList = 5271E54B14F9CAFB0079F815 /* Build configuration list for PBXProject "mirror" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5271E54614F9CAFB0079F815;
+			productRefGroup = 5271E55214F9CAFB0079F815 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5271E55014F9CAFB0079F815 /* mirror */,
+				5271E57414F9CAFC0079F815 /* mirrorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5271E54F14F9CAFB0079F815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5271E56014F9CAFB0079F815 /* InfoPlist.strings in Resources */,
+				5271E56614F9CAFB0079F815 /* Credits.rtf in Resources */,
+				5271E56C14F9CAFB0079F815 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5271E57214F9CAFC0079F815 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5271E58014F9CAFC0079F815 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5271E57314F9CAFC0079F815 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5271E54D14F9CAFB0079F815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5271E56214F9CAFB0079F815 /* main.m in Sources */,
+				5271E56914F9CAFB0079F815 /* AppDelegate.m in Sources */,
+				5271E56F14F9CAFC0079F815 /* mirror.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5271E57014F9CAFC0079F815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5271E58314F9CAFC0079F815 /* mirrorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5271E57A14F9CAFC0079F815 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5271E55014F9CAFB0079F815 /* mirror */;
+			targetProxy = 5271E57914F9CAFC0079F815 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5271E55E14F9CAFB0079F815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5271E55F14F9CAFB0079F815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5271E56414F9CAFB0079F815 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5271E56514F9CAFB0079F815 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5271E56A14F9CAFB0079F815 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5271E56B14F9CAFB0079F815 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5271E57E14F9CAFC0079F815 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5271E57F14F9CAFC0079F815 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5271E58414F9CAFC0079F815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5271E58514F9CAFC0079F815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5271E58714F9CAFC0079F815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mirror/mirror-Prefix.pch";
+				INFOPLIST_FILE = "mirror/mirror-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5271E58814F9CAFC0079F815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mirror/mirror-Prefix.pch";
+				INFOPLIST_FILE = "mirror/mirror-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5271E58A14F9CAFC0079F815 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mirror.app/Contents/MacOS/mirror";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mirror/mirror-Prefix.pch";
+				INFOPLIST_FILE = "mirrorTests/mirrorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5271E58B14F9CAFC0079F815 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/mirror.app/Contents/MacOS/mirror";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mirror/mirror-Prefix.pch";
+				INFOPLIST_FILE = "mirrorTests/mirrorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5271E54B14F9CAFB0079F815 /* Build configuration list for PBXProject "mirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5271E58414F9CAFC0079F815 /* Debug */,
+				5271E58514F9CAFC0079F815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5271E58614F9CAFC0079F815 /* Build configuration list for PBXNativeTarget "mirror" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5271E58714F9CAFC0079F815 /* Debug */,
+				5271E58814F9CAFC0079F815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5271E58914F9CAFC0079F815 /* Build configuration list for PBXNativeTarget "mirrorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5271E58A14F9CAFC0079F815 /* Debug */,
+				5271E58B14F9CAFC0079F815 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5271E56D14F9CAFB0079F815 /* mirror.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5271E56E14F9CAFC0079F815 /* mirror.xcdatamodel */,
+			);
+			currentVersion = 5271E56E14F9CAFC0079F815 /* mirror.xcdatamodel */;
+			path = mirror.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5271E54814F9CAFB0079F815 /* Project object */;
+}
